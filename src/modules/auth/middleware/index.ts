@@ -1,9 +1,9 @@
 import { IAuthPayload } from '@ecocms/common';
 import { NextFunction, Request, Response } from 'express';
 import * as jwt from 'jsonwebtoken';
-import config from '~/config';
-import { catchAsync } from '~/core/routes';
 
+import config from '../../../config';
+import { catchAsync } from '../../../core/routes';
 import { users } from '../models';
 
 const getTokenFromHeaders = (req: Request): string | null => {

@@ -10,7 +10,8 @@ import mongoose from 'mongoose';
 import passport from 'passport';
 import * as path from 'path';
 import xss from 'xss-clean';
-import config from '~/config';
+
+import config from '../config';
 
 import { AppError } from './error';
 import { IModule } from './module';

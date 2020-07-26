@@ -1,8 +1,9 @@
 import { IAuthPayload, IAuthResponse } from '@ecocms/common';
 import * as bcrypt from 'bcryptjs';
 import * as jwt from 'jsonwebtoken';
-import config from '~/config';
-import { Model } from '~/core/model';
+
+import config from '../../../../config';
+import { Model } from '../../../../core/model';
 
 import { userSchema } from './schema';
 import { IUserRecord } from './types';

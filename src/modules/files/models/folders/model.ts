@@ -1,5 +1,6 @@
 import { IFolder } from '@ecocms/common';
-import { Model } from '~/core/model';
+
+import { Model } from '../../../../core/model';
 
 import { folderSchema } from './schema';
 import { IFolderRecord } from './types';

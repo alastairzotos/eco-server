@@ -5,10 +5,10 @@ import mongoose from 'mongoose';
 import multer from 'multer';
 import GridFsStorage from 'multer-gridfs-storage';
 import * as path from 'path';
-import config from '~/config';
-import { catchAsync, createRouter } from '~/core/routes';
-import { authenticate } from '~/modules/auth';
 
+import config from '../../../config';
+import { catchAsync, createRouter } from '../../../core/routes';
+import { authenticate } from '../../../modules/auth';
 import { filesService } from '../services';
 
 const privateRouter = createRouter();

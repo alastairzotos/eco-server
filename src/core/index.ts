@@ -1,4 +1,4 @@
-import { IUserRecord } from '~/modules/auth/models/users/types';
+import { IUserRecord } from '../modules/auth/models/users/types';
 
 declare global {
     namespace Express {

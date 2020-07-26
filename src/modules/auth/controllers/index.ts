@@ -1,6 +1,6 @@
 import { IAuthResponse } from '@ecocms/common';
-import { catchAsync, createRouter } from '~/core/routes';
 
+import { catchAsync, createRouter } from '../../../core/routes';
 import { IUserRecord, users } from '../models';
 
 export const authRouter = createRouter();

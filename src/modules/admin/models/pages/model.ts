@@ -1,5 +1,6 @@
 import { IPage } from '@ecocms/common';
-import { Model } from '~/core/model';
+
+import { Model } from '../../../../core/model';
 
 import { pageSchema } from './schema';
 import { IPageRecord } from './types';

@@ -1,4 +1,4 @@
-import { IModule } from '~/core/module';
+import { IModule } from '../../core/module';
 
 import { authRouter } from './controllers';
 import { users } from './models';

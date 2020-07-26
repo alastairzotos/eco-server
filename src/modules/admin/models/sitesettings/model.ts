@@ -1,5 +1,6 @@
 import { IPage, ISiteSettings } from '@ecocms/common';
-import { Model } from '~/core/model';
+
+import { Model } from '../../../../core/model';
 
 import { siteSettingsSchema } from './schema';
 import { ISiteSettingsRecord } from './types';

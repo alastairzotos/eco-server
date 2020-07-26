@@ -1,4 +1,4 @@
-import { IModule } from '~/core/module';
+import { IModule } from '../../core/module';
 
 import { filesRouter } from './controllers';
 import { folders } from './models';

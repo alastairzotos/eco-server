@@ -1,4 +1,4 @@
-import { createRouter } from '~/core/routes';
+import { createRouter } from '../../../core/routes';
 
 import { pagesRouter } from './pages';
 import { siteSettingsRouter } from './sitesettings';

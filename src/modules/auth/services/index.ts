@@ -1,6 +1,7 @@
 import passport from 'passport';
 import { Strategy as LocalStrategy } from 'passport-local';
-import { Service } from '~/core/service';
+
+import { Service } from '../../../core/service';
 
 class AuthService extends Service {
     constructor() {

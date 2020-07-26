@@ -1,4 +1,4 @@
-import { IModule } from '~/core/module';
+import { IModule } from '../../core/module';
 
 import { adminRouter } from './controllers';
 import { adminService } from './services';

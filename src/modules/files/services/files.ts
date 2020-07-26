@@ -1,8 +1,8 @@
 import { IFile, IFilesAndFolders } from '@ecocms/common';
 import { ObjectID } from 'mongodb';
 import * as mongoose from 'mongoose';
-import { Service } from '~/core/service';
 
+import { Service } from '../../../core/service';
 import { folders } from '../models';
 
 const isInFolder = (filename: string, path: string) => {

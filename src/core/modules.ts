@@ -2,7 +2,7 @@ import {
     adminModule,
     authModule,
     filesModule
-} from '~/modules';
+} from '../modules';
 
 export const coreModules = [
     authModule,

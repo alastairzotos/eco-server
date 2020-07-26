@@ -1,7 +1,7 @@
 import { IPage } from '@ecocms/common';
-import { catchAsync, createRouter } from '~/core/routes';
-import { authenticate } from '~/modules/auth';
 
+import { catchAsync, createRouter } from '../../../core/routes';
+import { authenticate } from '../../../modules/auth';
 import { IPageRecord } from '../models';
 import { adminService } from '../services';
 

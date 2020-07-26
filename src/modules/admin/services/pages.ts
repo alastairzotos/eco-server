@@ -1,6 +1,6 @@
 import { IPage } from '@ecocms/common';
-import { Service } from '~/core/service';
 
+import { Service } from '../../../core/service';
 import { IPageRecord, pagesModel } from '../models';
 
 export class PagesService extends Service {
