@@ -1,4 +1,4 @@
-import { IAuthResponse } from '@common';
+import { IAuthResponse } from '@ecocms/common';
 import { catchAsync, createRouter } from '~/core/routes';
 
 import { IUserRecord, users } from '../models';

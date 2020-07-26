@@ -1,4 +1,4 @@
-import { IAuthPayload } from '@common*';
+import { IAuthPayload } from '@ecocms/common';
 import { NextFunction, Request, Response } from 'express';
 import * as jwt from 'jsonwebtoken';
 import config from '~/config';

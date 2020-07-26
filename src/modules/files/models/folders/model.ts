@@ -1,4 +1,4 @@
-import { IFolder } from '@common*';
+import { IFolder } from '@ecocms/common';
 import { Model } from '~/core/model';
 
 import { folderSchema } from './schema';

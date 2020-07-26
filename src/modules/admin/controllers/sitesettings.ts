@@ -1,4 +1,4 @@
-import { ISiteSettings } from '@common*';
+import { ISiteSettings } from '@ecocms/common';
 import { catchAsync, createRouter } from '~/core/routes';
 import { authenticate } from '~/modules/auth';
 

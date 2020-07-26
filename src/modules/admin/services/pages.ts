@@ -1,4 +1,4 @@
-import { IPage } from '@common';
+import { IPage } from '@ecocms/common';
 import { Service } from '~/core/service';
 
 import { IPageRecord, pagesModel } from '../models';

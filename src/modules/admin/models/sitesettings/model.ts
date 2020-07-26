@@ -1,4 +1,4 @@
-import { IPage, ISiteSettings } from '@common*';
+import { IPage, ISiteSettings } from '@ecocms/common';
 import { Model } from '~/core/model';
 
 import { siteSettingsSchema } from './schema';

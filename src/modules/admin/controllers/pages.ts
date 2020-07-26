@@ -1,4 +1,4 @@
-import { IPage } from '@common*';
+import { IPage } from '@ecocms/common';
 import { catchAsync, createRouter } from '~/core/routes';
 import { authenticate } from '~/modules/auth';
 

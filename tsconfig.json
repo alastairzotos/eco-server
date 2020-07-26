@@ -12,8 +12,9 @@
 		"outDir": "build",
 		"rootDir": "src",
 		"sourceMap": false,
-		"declaration": false,
+		"declaration": true,
 		"baseUrl": "src",
+		"esModuleInterop": true,
 		"paths": {
 			"~/*": ["*"]
 		}

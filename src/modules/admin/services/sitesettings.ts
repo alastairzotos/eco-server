@@ -1,4 +1,4 @@
-import { ISiteSettings } from '@common*';
+import { ISiteSettings } from '@ecocms/common';
 import { Service } from '~/core/service';
 
 import { siteSettingsModel } from '../models/sitesettings';

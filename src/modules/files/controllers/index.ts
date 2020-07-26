@@ -1,4 +1,4 @@
-import { IFile, IFilesAndFolders } from '@common';
+import { IFile, IFilesAndFolders } from '@ecocms/common';
 import { Request } from 'express';
 import Grid from 'gridfs-stream';
 import mongoose from 'mongoose';

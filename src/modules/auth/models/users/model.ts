@@ -1,4 +1,4 @@
-import { IAuthPayload, IAuthResponse } from '@common';
+import { IAuthPayload, IAuthResponse } from '@ecocms/common';
 import * as bcrypt from 'bcryptjs';
 import * as jwt from 'jsonwebtoken';
 import config from '~/config';

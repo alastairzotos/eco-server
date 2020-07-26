@@ -5,8 +5,7 @@
     "linterOptions": {
       "exclude": [
         "./**/*.d.ts",
-        "src/server/node_modules/**",
-        "src/client/node_modules/**"
+        "node_modules/**"
       ]
     },
     "rules": {
